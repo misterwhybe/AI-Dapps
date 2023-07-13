@@ -9,7 +9,7 @@ export default function Home() {
   const [messages, setMessages] = useState([
     {
       role: "assistant",
-      content: "Yo, this is ChatterBot! How can I help you today?",
+      content: "Welcome to Whybe's ChatBot! How can I help you today?",
     },
   ]);
   const callGetResponse = async () => {
